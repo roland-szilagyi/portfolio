@@ -1,11 +1,12 @@
-import './App.css'
+import { GlobalStyles } from './globalStyles';
 
 function App() {
   return (
     <>
+      <GlobalStyles />
       <h1>Vite + React</h1>
       <p>
-        Edit <code>src/App.jsx</code> and save to test HMR
+        with <code>emotion</code> and custom <code>globalStyles.jsx</code> reset 
       </p>
     </>
   )
